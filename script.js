@@ -8,7 +8,7 @@ let container = document.body.querySelector('#container');
 let button = document.body.querySelector('#button');
 
 function createGrid(num) {
-    for (i=0; i<num; i++) {
+    for (var i=0; i<num; i++) {
         var div = document.createElement('div');
         div.classList.add('item');
         div.style.backgroundColor = '#808080';
