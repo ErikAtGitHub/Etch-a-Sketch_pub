@@ -1,0 +1,25 @@
+/*
+Name: Ville Peltonen
+Date created: 1/7/2020
+Most recent revision: 1/8/2020
+*/
+
+#container {
+    display: grid;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    grid-template-columns: repeat(16, auto);
+}
+
+#empty {
+    height: 20px;
+}
+
+#button {
+    display: block;
+    margin: auto;
+    height: 50px;
+    font-size: large;
+}
+
